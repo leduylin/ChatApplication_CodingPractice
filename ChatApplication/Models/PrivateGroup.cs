@@ -3,6 +3,10 @@
     public class PrivateGroup : Group
     {
         public int Id { get; set; }
-        public List<User> UsersList { get; set; }
+        public Us Admin { get; set} 
+        public List<User> UserList { get; set; }
+        
     }
+
+   
 }
